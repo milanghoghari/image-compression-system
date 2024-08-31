@@ -1,6 +1,6 @@
 import express from "express";
-import config from "./config.json";
-import imageCompressionRouter from "./src/routes/image-compression.route";
+import config from "../config.json";
+import imageCompressionRouter from "./routes/image-compression.route";
 import mongoose from "mongoose";
 
 async function createServer() {
