@@ -1,0 +1,13 @@
+{
+  "port": 1,
+  "mongoDB_URL": "",
+  "aws": {
+    "accessKeyId": "",
+    "secretAccessKey": "",
+    "region": "",
+    "bucket": "",
+    "acl": "",
+    "bucketPath": ""
+  },
+  "webhookUrl": ""
+}
