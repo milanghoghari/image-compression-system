@@ -7,6 +7,7 @@ A Node.js application is designed to handle CSV files. It validates data, compre
 - [Features](#Features)
 - [Tech-Stack](#Tech-Stack)
 - [Installation](#Installation)
+- [Documentation](https://quixotic-jute-c4c.notion.site/image-compression-documentation-216e807140ae48449ccfce780dac9805?pvs=4)
 
 ## Features
 
