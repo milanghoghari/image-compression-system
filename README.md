@@ -42,7 +42,26 @@ A Node.js application is designed to handle CSV files. It validates data, compre
    ```sh
    npm i
    ```
-3. **Start Application**:
+3. **Create config.json file for your environment**:
+
+   ```js
+    {
+    port: 1, // write a port number on which you want to start your application ex. localhost:3000
+    mongoDB_URL: "", // your mongoDB connection string URL
+    aws: {
+        accessKeyId: "", // your aws s3 accessKeyId
+        secretAccessKey: "", // your aws s3 secretAccessKey
+        region: "", // your aws s3 region
+        bucket: "", // your aws s3 bucket
+        acl: "", // make sure you write "public-read" for accessing image urls publicly
+        bucketPath: "" // buckePath of your s3 in which you want upload compressed images
+    },
+    webhookUrl: "" // webhookUrl of your server ex. for testing purpose you can use site like https://webhook.site/
+   }
+
+   ```
+
+4. **Start Application**:
    - for starting the app
    ```sh
    npm start
